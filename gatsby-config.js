@@ -41,5 +41,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.Ziha_API,
+        concurrency: 5,
+        tables: [
+          {
+            basId: process.env.Ziha_BASE,
+            tableName: `Projects`,
+            mapping: {
+              image: `fileNode`,
+            },
+          },
+        ],
+      },
+    },
   ],
 }
