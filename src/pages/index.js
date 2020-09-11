@@ -4,7 +4,7 @@ import {
   Layout,
   Hero,
   About,
-  Projects,
+  //Projects,
   Survey,
   Slider,
   GridProjects,
@@ -18,7 +18,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <Hero />
       <About />
-      <Projects projects={projects} title="son çalışmalarımız" />
+      <GridProjects projects={projects} title="son çalışmalarımız" />
       <Survey />
       <Slider />
     </Layout>
@@ -29,7 +29,7 @@ export const query = graphql`
   {
     allAirtable(
       filter: { table: { eq: "Projects" } }
-      limit: 3
+      limit: 4
       sort: { fields: data___date, order: DESC }
     ) {
       nodes {
