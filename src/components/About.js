@@ -5,7 +5,7 @@ import services from "../constants/services"
 const About = () => {
   return (
     <Wrapper className="section">
-      <Title title="Hakkımızda" />
+      <Title title="Hizmetlerimiz" />
       <div className="section-center">
         {services.map(({ id, icon, label, text }) => {
           return (

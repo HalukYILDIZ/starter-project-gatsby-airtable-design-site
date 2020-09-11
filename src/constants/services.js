@@ -1,37 +1,40 @@
 import React from "react"
 import {
-  GiCompass,
+  GiCoinsPile,
   GiDiamondHard,
   GiStabbedNote,
   GiBriefcase,
+  GiCorn,
+  GiMedicines,
 } from "react-icons/gi"
+import { FaMap } from "react-icons/fa"
 export default [
   {
     id: 1,
-    icon: <GiCompass className="icon" />,
-    label: "mission",
+    icon: <GiMedicines className="icon" />,
+    label: "İlaçlama",
     text:
-      " Activated charcoal post-ironic unicorn flexitarian tumeric, direct trade man bun mumblecore kickstarter art party. ",
+      " DJI Agras T-16 ve DJI Agras MG1-P ilaçlama dronlarımız ile her bir zirai insansız hava aracı filomuz yaklaşık saatte 20 hektar alan ilaçlama yapabilmektedir. ",
   },
   {
     id: 2,
-    icon: <GiDiamondHard className="icon" />,
-    label: "vision",
+    icon: <GiCoinsPile className="icon" />,
+    label: "mahsül analİzİ",
     text:
-      " Brooklyn mustache polaroid neutra. Wolf subway tile gluten-free bushwick, godard letterpress pitchfork direct trade put a bird on",
+      " Termal analiz, yüksek çözünürlüklü optik görüntüleme ile mahsül sağlık durumunu analiz ederek verim artırıcı önlemler ve ihtiyaçlar için saha çalışmalarıyla çözümler üretiyoruz.",
   },
   {
     id: 3,
-    icon: <GiStabbedNote className="icon" />,
-    label: "history",
+    icon: <FaMap className="icon" />,
+    label: "harİtalama",
     text:
-      "Chia pinterest locavore letterpress tote bag. Subway tile PBR&B knausgaard locavore quinoa four loko disrupt photo booth hella.",
+      "Fotogrametrik yöntemler kullanarak ortofoto aşamasından halihazır aşamasına kadar haritalama çözümleri üretiyoruz.",
   },
   {
     id: 4,
     icon: <GiBriefcase className="icon" />,
-    label: "work",
+    label: "Etkİlİ ve Hızlı Destek",
     text:
-      "Man braid banh mi prism disrupt hella cray mlkshk jean shorts typewriter synth salvia direct trade pabst knausgaard.",
+      "Etkili ve hızlı ilaçlama ile ilacınızı tarlanıza buluşturun. İster tarlanızın tamamını, ister sorunlu olan yerlerinizi ilaçlayabiliriz. Yağmurdan veya sulamadan sonra çamur olan tarlanıza ilaçlama yapabiliriz. Uzun boylu bitkileriniz ezilmeden ve zarar görmeden ilaçlanabilir.",
   },
 ]
