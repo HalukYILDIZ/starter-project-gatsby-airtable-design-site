@@ -44,12 +44,26 @@ module.exports = {
     {
       resolve: `gatsby-source-airtable`,
       options: {
-        apiKey: process.env.Ziha_API,
+        apiKey: process.env.GATSBY_ZIHA_API,
         concurrency: 5,
         tables: [
           {
-            basId: process.env.Ziha_BASE,
+            baseId: process.env.GATSBY_ZIHA_BASE,
             tableName: `Projects`,
+            mapping: {
+              image: `fileNode`,
+            },
+          },
+          {
+            baseId: process.env.GATSBY_ZIHA_BASE,
+            tableName: `Customers`,
+            mapping: {
+              image: `fileNode`,
+            },
+          },
+          {
+            baseId: process.env.GATSBY_ZIHA_BASE,
+            tableName: `Hero`,
             mapping: {
               image: `fileNode`,
             },

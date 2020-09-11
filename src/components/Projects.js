@@ -4,14 +4,54 @@ import Title from "./Title"
 import styled from "styled-components"
 import Image from "gatsby-image"
 import SearchButtons from "./SearchButtons"
-const Projects = () => {
-  return <h2>projects component</h2>
+const Projects = ({ projects: data, title, page }) => {
+  const [projects, setProjects] = React.useState(data)
+
+  const setBackToAll = () => {
+    setProjects(data)
+  }
+
+  return (
+    <Wrapper className="section">
+      <Title title={title || "projeler"} />
+      {page && (
+        <SearchButtons
+          projects={data}
+          setProjects={setProjects}
+          setBackToAll={setBackToAll}
+        />
+      )}
+      <div className="section-center">
+        {projects.map(item => {
+          const { id } = item
+          const { name, type } = item.data
+          const fluid = item.data.image.localFiles[0].childImageSharp.fluid
+          return (
+            <article key={id}>
+              <div className="container">
+                <Image fluid={fluid} className="img" />
+                <div className="info">
+                  <p>- {type} -</p>
+                  <h3>{name}</h3>
+                </div>
+              </div>
+            </article>
+          )
+        })}
+      </div>
+      {!page && (
+        <Link to="/projects" className="btn">
+          Tüm Çalışmalar
+        </Link>
+      )}
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.section`
   background: var(--clr-grey-10);
   .section-center {
-    margin-top: 4rem;
+    margin - top: 4rem;
     max-width: var(--max-width);
     display: grid;
     gap: 2rem;
@@ -23,12 +63,12 @@ const Wrapper = styled.section`
       transition: var(--transition);
     }
     article {
-      box-shadow: var(--light-shadow);
+      box - shadow: var(--light-shadow);
       border-radius: var(--radius);
       transition: var(--transition);
     }
     article:hover {
-      box-shadow: var(--dark-shadow);
+      box - shadow: var(--dark-shadow);
     }
     .container {
       position: relative;
@@ -49,7 +89,7 @@ const Wrapper = styled.section`
         color: var(--clr-white);
         text-align: center;
         p {
-          margin-bottom: 0.5rem;
+          margin - bottom: 0.5rem;
           color: var(--clr-white);
           text-transform: uppercase;
         }
@@ -77,7 +117,7 @@ const Wrapper = styled.section`
     }
   }
   a {
-    display: block;
+                display: block;
     width: 9rem;
     text-align: center;
     margin: 0 auto;
