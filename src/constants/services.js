@@ -1,12 +1,5 @@
 import React from "react"
-import {
-  GiCoinsPile,
-  GiDiamondHard,
-  GiStabbedNote,
-  GiBriefcase,
-  GiCorn,
-  GiMedicines,
-} from "react-icons/gi"
+import { GiCoinsPile, GiBriefcase, GiMedicines } from "react-icons/gi"
 import { FaMap } from "react-icons/fa"
 export default [
   {

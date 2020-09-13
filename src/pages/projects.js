@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-import { Layout, Projects, Algolia } from "../components"
+import { Layout, Projects } from "../components"
 
 const ProjectsPage = ({ data }) => {
   const {

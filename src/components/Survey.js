@@ -3,7 +3,7 @@ import Title from "./Title"
 import styled from "styled-components"
 import base from "./Airtable"
 import { FaVoteYea } from "react-icons/fa"
-import { MdRecordVoiceOver } from "react-icons/md"
+//import { MdRecordVoiceOver } from "react-icons/md"
 
 const Survey = () => {
   const [items, setItems] = useState([])

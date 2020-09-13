@@ -1,20 +1,20 @@
-// Search.js
+// // Search.js
 
-import React from "react"
-import styled from "styled-components"
-import Image from "gatsby-image"
-import Title from "./Title"
-import algoliasearch from "algoliasearch/lite"
-import {
-  InstantSearch,
-  SearchBox,
-  Hits,
-  connectHits,
-} from "react-instantsearch-dom"
+// import React from "react"
+// import styled from "styled-components"
+// import Image from "gatsby-image"
+// import Title from "./Title"
+// import algoliasearch from "algoliasearch/lite"
+// import {
+//   InstantSearch,
+//   SearchBox,
+//   Hits,
+//   connectHits,
+// } from "react-instantsearch-dom"
 
-const Search = () => {
-  return <h2>algolia search</h2>
-}
+// const Search = () => {
+//   return <h2>algolia search</h2>
+// }
 
 const Wrapper = styled.section`
   padding: 5rem 0;
