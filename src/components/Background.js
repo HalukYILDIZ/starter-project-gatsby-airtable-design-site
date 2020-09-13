@@ -37,10 +37,10 @@ const Background = ({ children, image }) => {
 
 const fadeIn = keyframes`
       from{
-         background-color:rgb(0,0,0,0.8);
+         background-color:rgb(0,0,0,0.6);
       }
       to{
-        background-color:rgba(0,0,0,0.4);
+        background-color:rgba(0,0,0,0.2);
       }
       `
 

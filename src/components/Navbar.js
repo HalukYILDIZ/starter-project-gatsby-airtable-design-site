@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import styled from "styled-components"
-import logo from "../images/logo.svg"
+import logo from "../images/logo2.png"
 import { GoThreeBars } from "react-icons/go"
 import { Link } from "gatsby"
 import NavLink from "./NavLink"
@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="ziha"></img>
+            <img src={logo} alt="ziha" className="logo"></img>
           </Link>
           {!isSidebarOpen && (
             <button className="toggle-btn" onClick={showSidebar}>
@@ -90,6 +90,12 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
+
+  .logo {
+    position: relative;
+    max-width: 200px;
+    max-height: 120px;
+  }
   @media (min-width: 800px) {
     .nav-header {
       .toggle-btn {
@@ -112,6 +118,7 @@ const Wrapper = styled.nav`
       padding: 1rem 0;
       position: relative;
     }
+
     button {
       color: var(--clr-white);
       background: transparent;

@@ -42,7 +42,7 @@ const Hero = () => {
     const image = localFiles[0].childImageSharp.fluid
     return image
   })
-  const [index, setIndex] = React.useState(2)
+  const [index, setIndex] = React.useState(3)
   React.useEffect(() => {
     const lastIndex = images.length - 1
     if (index < 0) {
