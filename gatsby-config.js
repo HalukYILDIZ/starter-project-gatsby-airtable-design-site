@@ -7,9 +7,9 @@ module.exports = {
     title: `ziha`,
     description: `Zirai İnsansız Hava Araçları Tarımsal İnavasyon Merkezi `,
     author: `@halukyildiz`,
-    titleTemplate: `%s | Gatsby - Airtable`,
+    titleTemplate: `%s | Tarımsal İnavasyon Merkezi`,
     url: `https://ziha.netlify.app/`,
-    image: `sayfa1.jpg`,
+    image: `/logo2.png`,
     twitterUsername: `@halukyildiz4000`,
   },
   plugins: [

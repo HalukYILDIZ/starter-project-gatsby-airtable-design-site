@@ -10,12 +10,18 @@ import {
   GridProjects,
 } from "../components"
 import SEO from "../components/seo"
+
 const HomePage = ({ data }) => {
   const {
     allAirtable: { nodes: projects },
   } = data
   return (
     <Layout>
+      <SEO
+        title="ziha"
+        description="tarımsal inavasyon merkezi"
+        image="/logo2.png"
+      />
       <Hero />
       <About />
       <GridProjects projects={projects} title="son çalışmalarımız" />
