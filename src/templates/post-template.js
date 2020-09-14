@@ -1,15 +1,58 @@
 import React from "react"
-import Layout from "../../../../../../../Desktop/mdx/src/components/Layout"
-import Hero from "../../../../../../../Desktop/mdx/src/components/Hero"
+import Layout from "../components/layout"
+import Hero from "../components/Hero"
 import styled from "styled-components"
 import Image from "gatsby-image"
-import Banner from "../../../../../../../Desktop/mdx/src/components/Banner"
+//import Banner from "../components/Banner"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-// ...GatsbyImageSharpFluid
-const PostTemplate = () => {
-  return <h2>post template</h2>
+const PostTemplate = ({ data }) => {
+  const {
+    mdx: {
+      frontmatter: { title, category, image, date },
+      body,
+    },
+  } = data
+  return (
+    <Layout>
+      <Wrapper>
+        <article>
+          <Image fluid={image.childImageSharp.fluid} />
+          <div className="post-info">
+            <span>{category}</span>
+            <h2>{title}</h2>
+            <p>{date}</p>
+            <div className="underline"></div>
+          </div>
+          <MDXRenderer>{body}</MDXRenderer>
+        </article>
+        <article></article>
+      </Wrapper>
+    </Layout>
+  )
 }
+
+export const query = graphql`
+  query GetSinglePost($slug: String) {
+    mdx(frontmatter: { slug: { eq: $slug } }) {
+      frontmatter {
+        category
+        date(formatString: "DD/MM/YYYY")
+        readTime
+        title
+        slug
+        image {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+      body
+    }
+  }
+`
 
 const Wrapper = styled.section`
   width: 85vw;

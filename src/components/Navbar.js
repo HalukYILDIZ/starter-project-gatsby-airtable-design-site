@@ -120,7 +120,7 @@ const Wrapper = styled.nav`
     }
 
     button {
-      color: var(--clr-white);
+      color: var(--clr-black);
       background: transparent;
       border: transparent;
       font-size: 1rem;
