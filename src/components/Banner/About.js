@@ -1,13 +1,17 @@
-import React from 'react'
-import SocialLinks from '../../constants/socialLinks'
-import Image from 'gatsby-image'
-import { graphql, useStaticQuery } from 'gatsby'
-import Title from './Title'
-import styled from 'styled-components'
+import React from "react"
+import SocialLinks from "../../constants/socialLinks"
+import Image from "gatsby-image"
+import { graphql, useStaticQuery } from "gatsby"
+import Title from "./Title"
+import styled from "styled-components"
 //...GatsbyImageSharpFixed
 
 const About = () => {
-  return <Wrapper>Banner About</Wrapper>
+  return (
+    <Wrapper>
+      <Title title="About Me" />
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.div`

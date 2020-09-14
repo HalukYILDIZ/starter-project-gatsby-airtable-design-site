@@ -1,7 +1,7 @@
 import React from "react"
 import Post from "./Post"
 import Title from "../Title"
-//import Banner from "../Banner"
+import Banner from "../Banner"
 const Posts = ({ posts, title }) => {
   return (
     <div className="section">
@@ -13,7 +13,9 @@ const Posts = ({ posts, title }) => {
               return <Post key={post.id} {...post} />
             })}
           </article>
-          <article></article>
+          <article>
+            <Banner />
+          </article>
         </div>
       </section>
     </div>
