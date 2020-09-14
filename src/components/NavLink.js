@@ -41,6 +41,8 @@ const Wrapper = styled.li`
     position: relative;
   }
   .links {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0.5px;
     position: absolute;
     top: 4rem;
     left: 50%;

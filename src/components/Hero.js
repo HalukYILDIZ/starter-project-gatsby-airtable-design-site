@@ -56,8 +56,9 @@ const Hero = () => {
     <Wrapper>
       <Background image={images[index]}>
         <article>
-          <h3>Siz evde kalın, Ekinlerinizin sağlığıyla biz ilgileniriz</h3>
-          <h1>ZİHA Tarımsal İnavosyon Merkezi</h1>
+          {/* <h3>Siz evde kalın, Ekinlerinizin sağlığıyla biz İlgileniriz</h3> */}
+          {/* <h1>ZİHA Tarımsal İnavosyon Merkezİ</h1> */}
+
           <Link to="/projects">çalışmalarımız</Link>
         </article>
         <button className="prev-btn" onClick={() => setIndex(index - 1)}>
@@ -93,18 +94,21 @@ const Wrapper = styled.section`
       font-weight: 500;
       line-height: 1.25;
       margin: 2rem 0 3rem 0;
-      letter-spacing: 3px;
+      letter-spacing: 1px;
+      font-family: "Times New Roman", Times, serif;
+      letter-spacing: 0.2px;
     }
     h3 {
       font-weight: 400;
-      font-family: "Caveat", cursive;
+      font-family: "Times New Roman", Times, serif;
     }
     a {
+      font-family: "Times New Roman", Times, serif;
       background: transparent;
       border: 2px solid var(--clr-white);
       padding: 0.25rem 1rem;
       text-transform: capitalize;
-      letter-spacing: 5px;
+      letter-spacing: 2px;
       color: var(--clr-white);
       font-size: 1rem;
       cursor: pointer;

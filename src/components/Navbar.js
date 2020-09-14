@@ -126,10 +126,15 @@ const Wrapper = styled.nav`
       font-size: 1rem;
       letter-spacing: 2px;
       font-weight: 500;
+      font-family: "Times New Roman", Times, serif;
       padding: 10px 20px;
       width: 100%;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       position: relative;
+      text-transform: uppercase;
+      //font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
     }
   }
 `
