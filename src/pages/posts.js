@@ -81,25 +81,7 @@ Posts Component
       column-gap: 1rem;
     }
   }
-  /*
-===============
-Banner Component
-===============
-*/
-  .banner-icons {
-    display: flex;
-    justify-content: center;
-  }
-  .banner-icons a {
-    font-size: 1.5rem;
-    margin: 0 0.25rem;
-  }
-  .banner-icons li {
-    transition: var(--transition);
-  }
-  .banner-icons li:hover {
-    transform: translateY(-10%);
-  }
+
   /*
 ===============
 Single Pages
