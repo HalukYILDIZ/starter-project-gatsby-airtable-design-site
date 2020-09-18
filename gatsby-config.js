@@ -13,7 +13,7 @@ module.exports = {
     twitterUsername: `@halukyildiz4000`,
   },
   plugins: [
-    `gatsby-plugin-mdx`,
+    //`gatsby-plugin-mdx`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
