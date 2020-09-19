@@ -56,10 +56,10 @@ const Hero = () => {
     <Wrapper>
       <Background image={images[index]}>
         <article>
-          {/* <h3>Siz evde kalın, Ekinlerinizin sağlığıyla biz İlgileniriz</h3> */}
-          {/* <h1>ZİHA Tarımsal İnavosyon Merkezİ</h1> */}
+          {/* <h3>Siz evde kalın, Ekinlerinizin sağlığıyla biz İlgileniriz</h3>
+          <h1>ZİHA Tarımsal İnavosyon Merkezİ</h1> */}
 
-          <Link to="/projects">çalışmalarımız</Link>
+          <Link to="/posts">DAHA FAZLA BİLGİ AL</Link>
         </article>
         <button className="prev-btn" onClick={() => setIndex(index - 1)}>
           <FiChevronLeft />

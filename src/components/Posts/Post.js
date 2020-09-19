@@ -16,7 +16,7 @@ const Post = ({ frontmatter, excerpt }) => {
         <div className="underline"></div>
         <p>{excerpt}</p>
         <Link to={`/posts/${slug}`} className="link">
-          Continue Reading
+          Okumaya Devam Et...
           <IoMdArrowRoundForward />
         </Link>
         <footer>

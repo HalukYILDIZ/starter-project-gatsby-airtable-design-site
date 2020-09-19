@@ -99,6 +99,38 @@ const Wrapper = styled.section`
       column-gap: 4rem;
     }
   }
+  /*
+===============
+Posts Component
+===============
+*/
+  .posts {
+    width: 85vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .posts-title {
+    margin-top: 5 rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e12d39;
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    .posts {
+      width: 92vw;
+    }
+  }
+  @media screen and (min-width: 1170px) {
+    .posts-center {
+      display: grid;
+      grid-template-columns: 1fr 250px;
+      column-gap: 1rem;
+    }
+  }
 `
 
 export default PostTemplate

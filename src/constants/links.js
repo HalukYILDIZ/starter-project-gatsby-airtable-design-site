@@ -2,44 +2,44 @@ import React from "react"
 import { FaCcStripe, FaCreditCard, FaAlipay } from "react-icons/fa"
 export default [
   {
-    page: "hizmetlerimiz",
+    page: "HİZMETLERİMİZ",
     label: "İlaçlama",
     url: `/products/payments`,
     icon: <FaCreditCard className="icon" />,
   },
   {
-    page: "hizmetlerimiz",
+    page: "HİZMETLERİMİZ",
     label: "Analiz",
     url: `/products/payments`,
     icon: <FaCreditCard className="icon" />,
   },
   {
-    page: "hizmetlerimiz",
+    page: "HİZMETLERİMİZ",
     label: "haritalama",
     url: `/products/payments`,
     icon: <FaCreditCard className="icon" />,
   },
   {
-    page: "blog",
-    label: "yazılar",
+    page: "YAZILARIMIZ",
+    label: "Tüm yazılar",
     url: `/posts`,
     icon: <FaCreditCard className="icon" />,
   },
   {
-    page: "blog",
+    page: "YAZILARIMIZ",
     label: "DJI_Agras MG1-P",
     url: `/products/payments`,
     icon: <FaAlipay className="icon" />,
   },
   {
-    page: "blog",
+    page: "YAZILARIMIZ",
     label: "DJI_Phantom 4-RTK",
     url: `/products/payments`,
     icon: <FaAlipay className="icon" />,
   },
   {
-    page: "blog",
-    label: "DJI_Mavic 2-Pro",
+    page: "YAZILARIMIZ",
+    label: "DJI_Agras T-16",
     url: `/products/payments`,
     icon: <FaAlipay className="icon" />,
   },

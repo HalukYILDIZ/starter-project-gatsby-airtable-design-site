@@ -1,17 +1,18 @@
 //import Counter from './Counter'
 //import LikeButton from './LikeButton'
 import { RegVideo, Video } from "./Video"
-//import * as Headings from './Headings'
-//import Code from './Code'
-//import Blockquote from './Blockquote'
-//import PrismSetup from './PrismSetup'
+import * as Headings from "./Headings"
+import Code from "./Code"
+import Blockquote from "./Blockquote"
+//import PrismSetup from "./PrismSetup"
+import Counter from "./Counter"
 export {
-  //Counter,
+  Counter,
   //LikeButton,
   RegVideo,
   Video,
-  //Headings,
-  //Code,
-  //Blockquote,
+  Headings,
+  Code,
+  Blockquote,
   //PrismSetup,
 }

@@ -97,7 +97,7 @@ const Wrapper = styled.blockquote`
     font-size: 1.2rem;
     margin: 2rem 0;
     .quote-icon {
-      font-size: 6rem;
+      font-size: 3rem;
       color: var(--clr-primary-5);
     }
   }

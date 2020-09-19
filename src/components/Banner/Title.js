@@ -21,16 +21,16 @@ const Wrapper = styled.div`
     margin-bottom: 0;
     padding: 0 0.6rem;
   }
-  .line {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 1.5px;
-    transform: translateY(-50%);
-    background: var(--clr-primary-5);
-    z-index: -1;
-  }
+  // .line {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 1.5px;
+  //   transform: translateY(-50%);
+  //   background: var(--clr-primary-5);
+  //   z-index: -1;
+  // }
   h4 {
     font-family: "Times New Roman", Times, serif;
     text-transform: uppercase;

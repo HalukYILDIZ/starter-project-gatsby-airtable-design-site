@@ -47,8 +47,8 @@ const fadeIn = keyframes`
 const Wrapper = styled.section`
   .bcg {
     /* MUST!!!!!! */
-    min-height: 100vh;
-    margin-top: 0.2rem;
+    min-height: 92vh;
+    margin-top: -0.8rem;
     display: grid;
     place-items: center;
     animation: ${fadeIn} 2s ease-in-out 1 forwards;

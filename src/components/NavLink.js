@@ -42,17 +42,20 @@ const Wrapper = styled.li`
   }
   .links {
     font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: 500;
     letter-spacing: 0.5px;
     position: absolute;
     top: 4rem;
     left: 50%;
     transform: translateX(-50%);
     visibility: hidden;
-    padding: 2rem;
+    padding: 1rem;
     background: var(--clr-white);
     border-radius: var(--radius);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    //grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem 2rem;
     grid-gap: 1rem 4rem;
     a {
@@ -84,7 +87,7 @@ const Wrapper = styled.li`
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-bottom: 5px solid var(--clr-white);
+    border-bottom: 5px solid var(--clr-grey-10);
     position: absolute;
     top: -5px;
     left: 50%;
