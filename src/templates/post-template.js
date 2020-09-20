@@ -61,6 +61,12 @@ const Wrapper = styled.section`
   max-width: 1100px;
   margin: 0 auto;
   margin-bottom: 4rem;
+  .center-btn {
+    display: block;
+    width: 12rem;
+    text-align: center;
+    margin: 3rem auto;
+  }
   .post-info {
     margin: 2rem 0 4rem 0;
     text-align: center;

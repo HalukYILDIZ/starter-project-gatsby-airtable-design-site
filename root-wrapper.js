@@ -182,12 +182,7 @@ p {
   }
 }
 /*  global classes */
-.center-btn {
-  display: block;
-  width: 12rem;
-  text-align: center;
-  margin: 3rem auto;
-}
+
 
 .btn {
   text-transform: uppercase;

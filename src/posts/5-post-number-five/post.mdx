@@ -1,47 +1,64 @@
 ---
-title: Shopping Cart
-slug: shopping-cart
-image: ./images/react-2.png
-date: 2020-05-06
-author: john smith
-category: react
+title: Analiz
+slug: analiz
+image: ./images/analiz1.jpg
+date: 2020-09-20
+author: Haluk YILDIZ
+category: Analiz
 readTime: 12
 ---
 
 import { Link } from "gatsby"
-import { Counter } from "../../components/Complete"
+import { RegVideo, Video } from "../../components/Complete"
 
-_I'm baby humblebrag neutra taiyaki af vice bespoke locavore fanny pack_ ramps vexillologist succulents. Normcore etsy pour-over adaptogen skateboard fashion axe, bushwick food truck beard lumbersexual master cleanse actually deep v. **Retro cardigan raw denim franzen kickstarter you probably haven't heard of them literally** aesthetic snackwave four dollar toast. Keffiyeh synth umami, helvetica yr flexitarian jean shorts banh mi cardigan leggings letterpress paleo intelligentsia narwhal.
+Ürün gözlemciliğinden, multispektral kameralarla donatılmış mahsul algılama dronlarına kadar mahsul sağlığını tespit etme yeteneğine sahiptir. Dronlar, pahalı tarım uzmanlarına veya koşulları izlemek için bir dış kuruma ihtiyaç duymadan özel denetimler gerçekleştirme becerisiyle çiftçilerden tasarruf sağlıyor.
 
-<blockquote>
-  I'm baby tumblr fanny pack tousled seitan. Man bun shaman yr, bushwick fam
-  hammock williamsburg kombucha keytar VHS. Chambray street art authentic,
-</blockquote>
+![analiz](./images/analiz2.jpg)
 
-<blockquote display="info">
-  I'm baby tumblr fanny pack tousled seitan. Man bun shaman yr, bushwick fam
-  hammock williamsburg kombucha keytar VHS. Chambray street art authentic,
-</blockquote>
+SenseFly eBeeX gibi sabit kanatlı dronlardan büyük ölçekli algılama yapmak için veya Parrot Bluegrass Fields Drone ile sorunlu alan keşiflerini yapmak için burada Dronefly'de size yardımcı olmaya hazırız. Bu blogda, algılama teknolojisi ve tarım, çiftçilik ve hayvancılık endüstrilerindeki bazı farklı kullanım durumları hakkında size rehberlik edeceğiz.
 
-```jsx import React from "react" import Counter from
-"../components/Complete/Counter"
+<h4>Analiz Araçları</h4>
 
-const Counter = () => {
-const [count, setCount] = React.useState(0)
-return (
+Mahsul sağlığını incelemek için tarlalarda yürümek zaman alıcı, pahalı ve verimsizdir. Özel kamera sensörleri eskiden çok pahalı ve ağırdı, bu da insanlı uçaklarda taşınmaları gerektiği anlamına geliyordu. Artık algılama teknolojisinin çok daha kompakt hale gelmesiyle ve dronların ortalama bir kişi tarafından kullanımı çok daha kolay hale gelmesiyle ( SenseFly eBeeX kendi kendine uçabilir), bu uzaktan algılama teknolojisi çiftçiler tarafından verimliliği artırmak ve daha fazla verim elde etmek için kullanılabilir.
 
-<section className="counter">
-  <h4>show some love to MDX</h4>
-  <h4>likes {count}</h4>
-  <button className="btn btn-danger" onClick={() => setCount(count + 1)}>
-    i like mdx
-  </button>
-</section>
-) } export default Counter
+<Video src="https://www.youtube.com/embed/RQdf-CZam3A" />
 
-```
+<h4>Mahsul Muayene ve Analizi</h4>
 
-<Counter />
+MicaSense altum , MicaSense RedEdge-MX ve papağan Sequoia gibi multispektral sensörler ekinin yapraklarının yansıyan ışık belirli bantlar analiz etmek için ayarlanmıştır.
+Bu aşağı bakan sensörler, güneşten gelen ışık miktarını ölçmek için dronun üstüne
+yerleştirilmiş yukarı bakan bir ışık okuyucusuna da sahiptir. Sensördeki yazılım,
+bir oran oluşturmak için yukarıdan gelen ışık miktarını ve alttaki mahsullerden yansıyan
+miktarı okur.
+
+![analiz](./images/analiz3.jpg)
+
+Araştırmanın amacına bağlı olarak farklı oranlar hesaplanabilir, tipik bir oran normalize edilmiş fark bitki örtüsü indeksidir (NDVI). Bu orandan aşağı bakan sensörler ve yukarı bakan sensör, kısmen bulutlu veya güneşli bir gün olsa da mahsul sağlığını tespit edebiliyor.
+
+Aşağıdaki grafik, tarım veya yakın kızılötesi (NIR) sensörünün mavi, yeşil, kırmızı, mor ve gri çubuklarla analiz ettiği 5 ayrı bandı göstermektedir. Multispektral bant sensörü, bitkilerin fotosentez için kullandıkları bu ışık dalga boyları arasındadır. Drone endüstrisi, drone'lara monte edilmiş yakın kızılötesi (NIR) sensörlerin ve çoklu spektral sensörlerin (RGB, RedEdge ve NIR) uyarlanmasıyla ürün denetimini bir sonraki seviyeye taşıdı. NIR sensörleri, bitkilerin fotosentez için ışığı absorbe etmek için kullandıkları ışık spektrumunu algılar. Yazılım analizi, belirli bir mahsul türünü ve hatta belirli bir mahsulün yaşamın hangi aşamasında olduğunu yansıtmak için değerleri değiştirmek için kullanılabilir.
+
+<Video src="https://www.youtube.com/embed/34rrOqqVkog" />
+
+<h4>NDVI nedir?</h4>
+
+NDVI, bitkiler tarafından emilen ve yansıtılan ışık enerjisi miktarının bir oranıdır, bu bitki sağlığını ölçer. Hesaplama: (NIR - RED) / (NIR + RED). Genel olarak, NDVI değerleri -1.0 ile 1.0 arasında değişir; negatif değerler su gibi nesneleri belirtir, sıfıra yakın pozitif değerler çıplak toprağı gösterir ve daha yüksek NDVI değerleri seyrek bitki örtüsünden (0.1 - 0.5) yoğun bitki örtüsüne (0.6 ve yukarıda). Sonuç olarak, bu teknoloji gübre, sulama, hastalık veya zararlı böceklerle karşılaşılan sorunlu alanlar için bir uyarı aracı olarak hizmet eder.
+
+<h4>Kırpma Alanı Haritalama</h4>
+
+NDVI sensörlerinden toplanan verilerle. her kare için GPS koordinatlarını içerir. ekin alanı alanının kapsamlı bir haritasını çıkarabilir. Bu, çiftçilerin arazi kullanımını ve ürün değişkenliğini en üst düzeye çıkarmak için ekinlerin nerede ekileceğini daha iyi planlamalarını sağlar. Daha iyi haritalama ayrıca su verimliliğini ve gübre kullanımını artırır. Mahsuller için ideal yerin daha iyi anlaşılmasıyla, artan verimlilik ve daha düşük maliyet beklenir.
+
+<h4>Hayvancılık İzleme</h4>
+
+Bir çiftlikte termal görüntüleme kameralarına sahip dronlar, birden fazla kullanım durumuna hizmet edebilir. Termal kameralı drone'lar, tek bir uzaktan kumandalı pilotun komuta ettiği hayvancılık hareketlerini uzaktan izleyebilir. Matrice 210 gibi termal kamera dronları , yüksek güçlü zoom kamera ve kızılötesi kamera gibi aynı anda iki kamera taşıyabilir . Çalışan ekipleri kontrol etmek veya çiftlik hayvanlarını izlemek, bir drone yardımıyla hiç bu kadar kolay olmamıştı. Kızılötesi bir drone ile zamandan tasarruf edin ve mülk bilincini artırın. Ürün incelemesi yapmak ve DJI Matrice 210 ile de bir seçenek olan bir termal kamera taşımak istiyorsanız.
+
+![analiz](./images/analiz4.jpg)
+
+<h4>Özetlemek gerekirse</h4>
+
+Dronlar, daha alçaktan ve daha kesin bir şekilde uçma kabiliyetine sahip olduklarından, uydulardan veya uçaklardan daha fazla çözünürlük sağlar. Dronların bir başka avantajı, kolay taşınabilirlik ve maliyet nedeniyle daha yüksek tarama frekansıdır. SenseFly eMotion gibi yazılımlar ( senseFly eBeeX ile birlikte gelir ), kullanıcıların belirli bir GPS alanını seçmelerine olanak tanır ve drone, operatöre ihtiyaç duymadan uçar ve seçilen alanı haritalandırır.
+
+Buna ek olarak, insansız hava araçları, meralardaki herhangi bir sorunu tespit etmek için çiftlik hayvanlarının uzaktan kolayca izlenmesini sağlar. Drone'lar, işlerini daha verimli ve daha düşük bir maliyetle yapmak için gerekli araçları bize besleyen insanlara gerçekten veriyor.
+
 <Link to="/posts" className="btn center-btn">
   all posts
 </Link>
