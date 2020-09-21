@@ -1,7 +1,6 @@
 import React from "react"
 import {
   FaMap,
-  FaCreditCard,
   FaTasks,
   FaFileAlt,
   FaRegAddressCard,
@@ -26,7 +25,7 @@ export default [
   {
     page: "HİZMETLERİMİZ",
     label: "haritalama",
-    url: `/products/payments`,
+    url: `/posts/haritalama`,
     icon: <FaMap className="icon" />,
   },
   {

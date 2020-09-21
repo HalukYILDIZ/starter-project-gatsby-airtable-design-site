@@ -183,6 +183,18 @@ p {
 }
 /*  global classes */
 
+.facebook-icon {
+  color: #3b5998;
+}
+.twitter-icon {
+  color: #00acee;
+}
+.dribble-icon {
+  color: #ea4c89;
+}
+.instagram-icon {
+  color: #fb3958
+}
 
 .btn {
   text-transform: uppercase;
