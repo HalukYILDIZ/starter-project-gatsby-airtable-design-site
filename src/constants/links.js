@@ -13,7 +13,7 @@ export default [
   {
     page: "HİZMETLERİMİZ",
     label: "İlaçlama",
-    url: `/products/payments`,
+    url: `/posts/ilaclama`,
     icon: <FaPills className="icon" />,
   },
   {
@@ -36,44 +36,44 @@ export default [
   },
   {
     page: "YAZILARIMIZ",
-    label: "DJI_Agras MG1-P",
-    url: `/products/payments`,
-    icon: <FaFileAlt className="icon" />,
-  },
-  {
-    page: "YAZILARIMIZ",
-    label: "DJI_Phantom 4-RTK",
-    url: `/products/payments`,
-    icon: <FaFileAlt className="icon" />,
-  },
-  {
-    page: "YAZILARIMIZ",
     label: "DJI_Agras T-16",
     url: `/posts/dji-agras-t-16`,
     icon: <FaFileAlt className="icon" />,
   },
   {
+    page: "YAZILARIMIZ",
+    label: "DJI_Agras MG1-P",
+    url: `/posts/dji-agras-mg1-p`,
+    icon: <FaFileAlt className="icon" />,
+  },
+  {
+    page: "YAZILARIMIZ",
+    label: "DJI_Phantom 4-RTK",
+    url: `/posts/phantom-4-rtk`,
+    icon: <FaFileAlt className="icon" />,
+  },
+  {
     page: "hakkımızda",
     label: "biz kimiz?",
-    url: `/products/payments`,
+    url: `/hakkimizda/bizkimiz`,
     icon: <FaRegAddressBook className="icon" />,
   },
   {
     page: "hakkımızda",
     label: "misyonumuz",
-    url: `/products/payments`,
+    url: `/hakkimizda/misyonumuz`,
     icon: <FaTasks className="icon" />,
   },
   {
     page: "hakkımızda",
     label: "telefon/adres",
-    url: `/products/payments`,
+    url: `/hakkimizda/adres`,
     icon: <FaRegAddressCard className="icon" />,
   },
   {
     page: "hakkımızda",
     label: "mail gönder",
-    url: `/products/payments`,
+    url: `/hakkimizda/mail`,
     icon: <FaMailBulk className="icon" />,
   },
 ]

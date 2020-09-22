@@ -42,18 +42,18 @@ const Wrapper = styled.li`
   }
   .links {
     font-family: "Times New Roman", Times, serif;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 300;
     letter-spacing: 0.5px;
     position: absolute;
-    top: 4rem;
+    top: 3rem;
     left: 50%;
     transform: translateX(-50%);
     visibility: hidden;
-    padding: 1rem;
-    background: var(--clr-white);
+    padding: 2rem;
+    background: var(--clr-white-1);
     border-radius: var(--radius);
-    display: grid;
+    display: flex;
     //grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem 2rem;
@@ -87,7 +87,7 @@ const Wrapper = styled.li`
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-bottom: 5px solid var(--clr-grey-10);
+    border-bottom: 5px solid var(--clr-grey-5);
     position: absolute;
     top: -5px;
     left: 50%;
