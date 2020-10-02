@@ -20,7 +20,7 @@ const Misyonumuz = props => {
             ve etkin destek vermek.
           </Blockquote>
           <Link to="/" className="btn">
-            home
+            Anasayfa
           </Link>
         </div>
       </Wrapper>

@@ -42,7 +42,9 @@ const Wrapper = styled.li`
   }
   .links {
     font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-size: 15px;
+    border-top-style: solid;
+    border-width: 1px;
     font-weight: 300;
     letter-spacing: 0.5px;
     position: absolute;
@@ -51,7 +53,7 @@ const Wrapper = styled.li`
     transform: translateX(-50%);
     visibility: hidden;
     padding: 2rem;
-    background: var(--clr-white-1);
+    background: var(--clr-white);
     border-radius: var(--radius);
     display: flex;
     //grid-template-columns: 1fr 1fr;
@@ -60,13 +62,14 @@ const Wrapper = styled.li`
     grid-gap: 1rem 4rem;
     a {
       display: grid;
-      grid-template-columns: auto 1fr;
+      grid-template-columns: auto 120px;
       gap: 0.5rem;
       grid-gap: 0.5rem;
       align-items: center;
       color: #0a2540;
       text-transform: capitalize;
-      font-weight: 700;
+      font-size: 16px;
+      font-weight: 500;
       .icon {
         color: var(--clr-primary-5);
       }

@@ -38,18 +38,6 @@ const Navbar = () => {
           <ul className="nav-links">
             <SocialLinks styleClass="banner-icons" />
           </ul>
-
-          {/* <ul className="nav-links">
-          <li>
-            <button>hizmetler</button>
-          </li>
-          <li>
-            <button>dronlar</button>
-          </li>
-          <li>
-            <button>iletişim</button>
-          </li>
-        </ul> */}
         </div>
       </div>
     </Wrapper>
@@ -65,6 +53,7 @@ Banner Component
   .banner-icons {
     display: flex;
     justify-content: center;
+    padding-left: 150px;
   }
   .banner-icons a {
     font-size: 1.5rem;
@@ -121,8 +110,8 @@ Banner Component
 
   .logo {
     position: relative;
-    max-width: 100px;
-    max-height: 60px;
+    max-width: 150px;
+    max-height: 90px;
   }
   @media (min-width: 800px) {
     .nav-header {
@@ -133,11 +122,11 @@ Banner Component
     .nav-center {
       display: inline-flex;
       grid-template-columns: auto 1fr;
-      gap: 0 3rem;
+      gap: 0 2rem;
       grid-gap: 0 10rem;
       align-items: center;
       justify-content: normal;
-      padding: 0rem 5rem;
+      padding: 0rem 4rem;
     }
     .nav-links {
       display: grid;
@@ -153,18 +142,17 @@ Banner Component
       color: var(--clr-black);
       background: transparent;
       border: transparent;
-      // font-size: 1rem;
       letter-spacing: 1px;
       font-weight: 500;
       font-family: "Times New Roman", Times, serif;
-      padding: 5px 40px;
+      padding: 5px 50px;
       width: 100%;
       // text-transform: capitalize;
       position: relative;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 1rem;
       font-weight: 500;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.7px;
     }
   }
   /* Navbar sonradan eklenen */

@@ -36,19 +36,19 @@ export default [
   },
   {
     page: "YAZILARIMIZ",
-    label: "DJI_Agras T-16",
+    label: "DJI Agras T-16",
     url: `/posts/dji-agras-t-16`,
     icon: <FaFileAlt className="icon" />,
   },
   {
     page: "YAZILARIMIZ",
-    label: "DJI_Agras MG1-P",
+    label: "DJI Agras MG1P",
     url: `/posts/dji-agras-mg1-p`,
     icon: <FaFileAlt className="icon" />,
   },
   {
     page: "YAZILARIMIZ",
-    label: "DJI_Phantom 4-RTK",
+    label: "DJI Phantom 4",
     url: `/posts/phantom-4-rtk`,
     icon: <FaFileAlt className="icon" />,
   },
