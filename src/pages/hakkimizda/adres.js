@@ -26,8 +26,6 @@ const Adres = props => {
 
   return (
     <Layout>
-      {/* <div className="App"> */}
-      {/* <IntroSection /> */}
       <Info />
       <div className="map">
         {/* <h2 className="map-h2">Gelİn Bİzİ Yerİmİzde Zİyaret Edİn </h2> */}
