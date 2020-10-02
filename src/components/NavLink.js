@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 
 import styled from "styled-components"
 import { Link } from "gatsby"
@@ -17,7 +17,7 @@ const NavLink = ({ page }) => {
                 {label}
               </Link>
             )
-          }
+          } else return <></>
         })}
         <div className="caret"></div>
       </div>
@@ -68,10 +68,10 @@ const Wrapper = styled.li`
       text-transform: capitalize;
       font-weight: 700;
       .icon {
-        color: #88add2;
+        color: var(--clr-primary-5);
       }
       &:hover {
-        color: #88add2;
+        color: var(--clr-primary-5);
         .icon {
           color: #0a2540;
         }

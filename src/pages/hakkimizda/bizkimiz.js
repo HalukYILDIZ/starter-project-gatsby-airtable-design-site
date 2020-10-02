@@ -2,16 +2,20 @@ import React from "react"
 import { Layout } from "../../components"
 import styled from "styled-components"
 import { Link } from "gatsby"
-import Blockquote from "../../components/Complete/Blockquote"
+import Slider from "../../components/Slider"
 const BizKimiz = props => {
   return (
     <Layout>
       <Wrapper>
         <div>
           <h1>Biz Kimiz?</h1>
-          <Blockquote display="warning">Çok yakında öğreneceksiniz!</Blockquote>
+        </div>
+        <article>
+          <Slider />
+        </article>
+        <div>
           <Link to="/" className="btn">
-            home
+            Anasayfa
           </Link>
         </div>
       </Wrapper>
@@ -21,14 +25,14 @@ const BizKimiz = props => {
 
 const Wrapper = styled.main`
   margin-top: -5rem;
-  background: var(--clr-primary-9);
+  background: var(--clr-grey-10);
   min-height: calc(100vh - 5rem);
   display: grid;
   place-items: center;
 
   div {
     text-align: center;
-    color: var(--clr-white);
+    //color: var(--clr-white);
   }
   h1 {
     font-size: 2rem;

@@ -9,7 +9,7 @@ const GridProjects = ({ projects, title }) => {
       <Title title={title || "çalışmalarımız"} />
       <div className="tile-layout">
         {projects.map((project, index) => {
-          const { id } = project
+          //const { id } = project
           const { name, type } = project.data
           const fluid = project.data.image.localFiles[0].childImageSharp.fluid
           return (
@@ -23,6 +23,9 @@ const GridProjects = ({ projects, title }) => {
           )
         })}
       </div>
+      <Link to="/projects" className="btn">
+        Tüm Çalışmalarımız
+      </Link>
     </Wrapper>
   )
 }
@@ -110,7 +113,7 @@ const Wrapper = styled.section`
   }
   a {
     display: block;
-    width: 9rem;
+    width: 12rem;
     text-align: center;
     margin: 0 auto;
     margin-top: 3rem;

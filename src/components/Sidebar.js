@@ -15,7 +15,7 @@ const Sidebar = () => {
           {links.map((link, index) => {
             const { url, label, icon } = link
             return (
-              <Link to={url} key={index}>
+              <Link to={url} key={index} onClick={hideSidebar}>
                 {icon}
                 {label}
               </Link>
@@ -43,7 +43,7 @@ const Wrapper = styled.aside`
   .container {
     background: var(--clr-white);
     width: 80vw;
-    height: 80vh;
+    height: 90vh;
     border-radius: var(--radius);
     position: relative;
     padding: 4rem 2rem 2rem 2rem;
@@ -74,11 +74,11 @@ const Wrapper = styled.aside`
         font-weight: 700;
         font-size: 1.2rem;
         .icon {
-          color: #88add2;
+          color: var(--clr-primary-5);
           font-size: 2rem;
         }
         &:hover {
-          color: #88add2;
+          color: var(--clr-primary-5);
           .icon {
             color: #0a2540;
           }

@@ -21,16 +21,16 @@ Variables
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(21, 91%, 17%);
-  --clr-primary-2: hsl(21, 84%, 25%);
-  --clr-primary-3: hsl(21, 81%, 29%);
-  --clr-primary-4: hsl(21, 77%, 34%);
+  --clr-primary-2: hsl(81, 84%, 25%);
+  --clr-primary-3: hsl(81, 81%, 29%);
+  --clr-primary-4: hsl(81, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(21, 62%, 45%);
-
+  // --clr-primary-5: hsl(21, 62%, 45%);
+  --clr-primary-5: hsl(81, 43%, 41%);
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(21, 57%, 50%);
-  --clr-primary-7: hsl(21, 65%, 59%);
-  --clr-primary-8: hsl(21, 80%, 74%);
+  --clr-primary-6: hsl(81, 57%, 50%);
+  --clr-primary-7: hsl(81, 65%, 59%);
+  --clr-primary-8: hsl(81, 80%, 74%);
   --clr-primary-9: hsl(21, 94%, 87%);
   --clr-primary-10: hsl(21, 100%, 94%);
   /* darkest grey - used for headings */

@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import styled from "styled-components"
-import logo from "../images/logo2.png"
+import logo from "../images/logo1.png"
 import { GoThreeBars } from "react-icons/go"
 import { Link } from "gatsby"
 import NavLink from "./NavLink"

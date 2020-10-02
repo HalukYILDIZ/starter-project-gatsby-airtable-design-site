@@ -44,7 +44,7 @@ const Slider = () => {
   }, [index, customers])
   return (
     <Wrapper className="section">
-      <Title title="Yorumlar" />
+      <Title title="Biz Kimiz" />
       <div className="section-center">
         {customers.map((customer, customerIndex) => {
           const {
@@ -87,7 +87,7 @@ const Wrapper = styled.div`
   .section-center {
     margin-top: 4rem;
     width: 80vw;
-    height: 450px;
+    height: 700px;
     max-width: 800px;
     text-align: center;
     position: relative;

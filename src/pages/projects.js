@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import { Layout, Projects } from "../components"
+import { Link } from "gatsby"
 
 const ProjectsPage = ({ data }) => {
   const {
@@ -11,6 +12,9 @@ const ProjectsPage = ({ data }) => {
     <Wrapper>
       <Layout>
         <Projects projects={projects} title="Tüm Çalışmalarımız" page />
+        <Link to="/" className="btn">
+          Anasayfa
+        </Link>
       </Layout>
     </Wrapper>
   )
@@ -44,6 +48,14 @@ const Wrapper = styled.main`
   background: var(--clr-grey-10);
   nav {
     background: var(--clr-white);
+  }
+  a {
+    display: block;
+    width: 12rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
   }
 `
 
