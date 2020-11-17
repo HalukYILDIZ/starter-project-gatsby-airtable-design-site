@@ -4,13 +4,13 @@ require("dotenv").config({
 // const queries = require("./src/constants/algolia")
 module.exports = {
   siteMetadata: {
-    title: `ziha`,
+    title: `zihatim`,
     description: `Zirai İnsansız Hava Araçları Tarımsal İnavasyon Merkezi `,
     author: `@halukyildiz`,
     titleTemplate: `%s | Tarımsal İnavasyon Merkezi`,
     url: `https://ziha.netlify.app/`,
     image: `/logo2.png`,
-    twitterUsername: `@halukyildiz4000`,
+    twitterUsername: `@zihatim`,
   },
   plugins: [
     //`gatsby-plugin-mdx`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `1825442409`,
+        username: `44525586587`,
       },
     },
     // {
