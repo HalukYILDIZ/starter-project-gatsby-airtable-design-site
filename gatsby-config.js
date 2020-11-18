@@ -64,20 +64,13 @@ module.exports = {
     // },
 
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Roboto`,
-            variants: [`400`, `500`, `700`],
-          },
-          {
-            family: `Open Sans`,
-          },
-          {
-            family: `Caveat`,
-          },
+          `montserrat\:400,500,700,800`,
+					`open sans\:400,700`
         ],
+        display: `swap`
       },
     },
     {
