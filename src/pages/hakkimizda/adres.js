@@ -18,8 +18,8 @@ const LocationPin = ({ text }) => (
 const Adres = props => {
   const koordinatlar = {
     center: {
-      lat: 39.576849,
-      lng: 32.150454,
+      lat: 39.9075021,
+      lng: 32.7575053,
     },
     zoom: 18,
   }
