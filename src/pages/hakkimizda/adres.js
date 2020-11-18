@@ -38,8 +38,8 @@ const Adres = props => {
             defaultZoom={koordinatlar.zoom}
           >
             <LocationPin
-              lat={39.576849}
-              lng={32.150454}
+              lat={39.9075021}
+              lng={32.7575053}
               text="ZİHA TARIMSAL İNAVASYON MERKEZİ"
             />
           </GoogleMapReact>
