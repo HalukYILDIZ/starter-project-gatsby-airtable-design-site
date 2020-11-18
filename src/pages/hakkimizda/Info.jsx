@@ -13,11 +13,11 @@ import "./info.css"
 
 const contactDetails = [
   {
-    value: "06900 İstiklal Mah., Polatlı/ANKARA.",
+    value: "06510 Mustafa Kemal Mah.,Dumlupınar Bulvarı, Tepe Prime, A blok, Kat: 0,KNo:266, DNo:18, Çankaya/ANKARA.",
     icon: locationIcon,
   },
-  { value: "+90 312 622 9751", icon: phoneIcon },
-  { value: "zihatim@gmail.com", icon: emailIcon },
+  { value: "+90 312 945 4791", icon: phoneIcon },
+  { value: "info@zihatim.com", icon: emailIcon },
 ]
 
 const renderContactDetails = () =>
