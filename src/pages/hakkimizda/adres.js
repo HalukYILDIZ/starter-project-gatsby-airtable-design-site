@@ -21,7 +21,7 @@ const Adres = props => {
       lat: 39.9075021,
       lng: 32.7575053,
     },
-    zoom: 18,
+    zoom: 15,
   }
 
   return (
