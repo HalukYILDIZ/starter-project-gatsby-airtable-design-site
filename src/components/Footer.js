@@ -6,7 +6,7 @@ const Footer = () => {
       <p>
         &copy; {new Date().getFullYear()} ZİHA Tarımsal İnavasyon Merkezi. All rights reserved.
       </p>
-      <p>Adres: Mustafa Kemal Mah. Dumlupınar Bulvarı TepePrime DNo:18  Tel: 0 (312) 945 47 91</p>
+      <p>Adres: Mustafa Kemal Mah. Dumlupınar Bulvarı TepePrime DNo:18 Çankaya/ANKARA  Tel: 0 (312) 945 47 91</p>
     
     </Wrapper>
   )
