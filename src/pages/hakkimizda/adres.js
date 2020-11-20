@@ -30,7 +30,7 @@ const Adres = props => {
       <div className="map">
         {/* <h2 className="map-h2">Gelİn Bİzİ Yerİmİzde Zİyaret Edİn </h2> */}
         <div className="google-map">
-          <GoogleMapReact
+          {/* <GoogleMapReact
             bootstrapURLKeys={{
               key: process.env.GOOGLE_API_KEY,
             }}
@@ -42,7 +42,7 @@ const Adres = props => {
               lng={32.7575053}
               text="ZİHA TARIMSAL İNAVASYON MERKEZİ"
             />
-          </GoogleMapReact>
+          </GoogleMapReact> */}
         </div>
       </div>
       {/* </div> */}

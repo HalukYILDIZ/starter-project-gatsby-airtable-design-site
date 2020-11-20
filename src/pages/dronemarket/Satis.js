@@ -1,24 +1,24 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-import { Layout, Projects } from "../components"
+import { Layout, Projects } from "../../components"
 import { Link } from "gatsby"
 
-const ProjectsPage = ({ data }) => {
+const Satis = ({ data }) => {
   const {
-    allAirtable: { nodes: projects },
+    allAirtable: { nodes: satis },
   } = data
   return (
     <Wrapper>
       <Layout>
-        <Projects projects={projects} title="Tüm Çalışmalarımız" page />
+        <Projects projects={satis} title="Stoktaki Ürünlerimiz" page />
       </Layout>
     </Wrapper>
   )
 }
 export const query = graphql`
   {
-    allAirtable(filter: { table: { eq: "Projects" } }) {
+    allAirtable(filter: { table: { eq: "Satis" } }) {
       nodes {
         id
         data {
@@ -41,33 +41,30 @@ export const query = graphql`
 `
 
 const Wrapper = styled.main`
-  .btn {
-  text-transform: uppercase;
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-10);
-  padding: 0.375rem 0.75rem;
-  letter-spacing: var(--spacing);
-  display: inline-block;
-  font-weight: 400;
-  transition: var(--transition);
-  font-size: 0.875rem;
-  border: 2px solid transparent;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: var(--radius);
-}
-.btn:hover {
-  background: var(--clr-primary-7);
-  color: var(--clr-primary-1);
-}
-
   min-height: 100vh;
   background: var(--clr-grey-10);
   nav {
     background: var(--clr-white);
   }
   /*
-
+===============
+Posts Component
+===============
+*/
+  .posts {
+    width: 85vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .posts-title {
+    margin-top: 5 rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e12d39;
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
 
   @media screen and (min-width: 992px) {
     .posts {
@@ -110,4 +107,5 @@ Single Pages
   }
 `
 
-export default ProjectsPage
+export default Satis
+

@@ -4,9 +4,10 @@ const Footer = () => {
   return (
     <Wrapper>
       <p>
-        &copy; {new Date().getFullYear()} Haluk YILDIZ. All rights reserved.
-        Built with ReactJS
+        &copy; {new Date().getFullYear()} ZİHA Tarımsal İnavasyon Merkezi. All rights reserved.
       </p>
+      <p>Adres: Mustafa Kemal Mah. Dumlupınar Bulvarı TepePrime DNo:18  Tel: 0 (312) 945 47 91</p>
+    
     </Wrapper>
   )
 }

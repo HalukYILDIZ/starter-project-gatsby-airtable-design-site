@@ -53,6 +53,12 @@ export default [
     icon: <FaFileAlt className="icon" />,
   },
   {
+    page: "HİZMETLERİMİZ",
+    label: "DRONEMARKET",
+    url: `/dronemarket/Satis`,
+    icon: <FaFileAlt className="icon" />,
+  },
+  {
     page: "hakkımızda",
     label: "biz kimiz?",
     url: `/hakkimizda/bizkimiz`,
