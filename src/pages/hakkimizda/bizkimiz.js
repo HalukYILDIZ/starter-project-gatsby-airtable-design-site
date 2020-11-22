@@ -2,7 +2,7 @@ import React from "react"
 import { Layout } from "../../components"
 import styled from "styled-components"
 import { Link } from "gatsby"
-import Slider from "../../components/Slider"
+import WhoWeAre from "../../components/WhoWeAre"
 const BizKimiz = props => {
   return (
     <Layout>
@@ -11,7 +11,7 @@ const BizKimiz = props => {
           <h1>Biz Kimiz?</h1>
         </div>
         <article>
-          <Slider />
+          <WhoWeAre />
         </article>
         <div>
           <Link to="/" className="btn">

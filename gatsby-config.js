@@ -95,6 +95,13 @@ module.exports = {
           },
           {
             baseId: process.env.GATSBY_ZIHA_BASE,
+            tableName: `WhoWeAre`,
+            mapping: {
+              image: `fileNode`,
+            },
+          },
+          {
+            baseId: process.env.GATSBY_ZIHA_BASE,
             tableName: `Hero`,
             mapping: {
               image: `fileNode`,

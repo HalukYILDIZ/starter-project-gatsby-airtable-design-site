@@ -8,7 +8,7 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
 
 const query = graphql`
   {
-    allAirtable(filter: { table: { eq: "Customers" } }) {
+    allAirtable(filter: { table: { eq: "WhoWeAre" } }) {
       nodes {
         data {
           name
@@ -28,7 +28,7 @@ const query = graphql`
     }
   }
 `
-const Slider = () => {
+const WhoWeAre = () => {
   const {
     allAirtable: { nodes: customers },
   } = useStaticQuery(query)
@@ -173,4 +173,4 @@ const Wrapper = styled.div`
     }
   }
 `
-export default Slider
+export default WhoWeAre

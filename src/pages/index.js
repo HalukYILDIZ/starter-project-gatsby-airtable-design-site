@@ -6,7 +6,7 @@ import {
   About,
   //Projects,
   Survey,
-  Slider,
+  Customers,
   GridProjects,
 } from "../components"
 import SEO from "../components/seo"
@@ -26,7 +26,7 @@ const HomePage = ({ data }) => {
       <About />
       <GridProjects projects={projects} title="son çalışmalarımız" />
       <Survey />
-      <Slider />
+      <Customers />
     </Layout>
   )
 }
