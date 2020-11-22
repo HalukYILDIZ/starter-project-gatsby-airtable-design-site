@@ -12,11 +12,14 @@ const Misyonumuz = props => {
         <div>
           <Title title="Misyonumuz" />
           <Blockquote>
+            Ziha Tarımsal İnovasyon Merkezi, Anadolu topraklarında geleneksel tarım üretimini, havacılık teknolojisi ile birleştirerek çağdaş tarım uygulamaları ile daha sağlıklı ve daha verimli sonuç almayı hedefleyen bunun için gerekli olan nitelikli insan ve teknolojiyi çiftçilerimizle buluşturmayı amaçlayan bir kuruluştur.
+          </Blockquote>
+          <Blockquote>
             Ülkemizin en gelişmiş teknolojilerle tarımsal faaliyetlerini
             sürdürmesine destek vermek.
           </Blockquote>
           <Blockquote>
-            Üretim temel taşı çiftçilerimizin üretimini artırabilmesi için hızlı
+            Üretimin temel taşı çiftçilerimizin üretimini artırabilmesi için hızlı
             ve etkin destek vermek.
           </Blockquote>
           <Link to="/" className="btn">

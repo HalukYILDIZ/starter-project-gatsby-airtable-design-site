@@ -12,12 +12,14 @@ const BizKimiz = props => {
         </div>
         <article>
           <WhoWeAre />
+          
+          
         </article>
-        <div>
-          <Link to="/" className="btn">
+        <article><Link to="/" className="btn">
             Anasayfa
-          </Link>
-        </div>
+          </Link></article>
+          
+        <div><p> </p></div>
       </Wrapper>
     </Layout>
   )
