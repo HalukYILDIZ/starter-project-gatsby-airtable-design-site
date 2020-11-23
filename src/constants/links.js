@@ -54,7 +54,7 @@ export default [
   },
   {
     page: "HİZMETLERİMİZ",
-    label: "DroneMarket",
+    label: "DronMarket",
     url: `https://shop.zihatim.com/`,
     icon: <FaFileAlt className="icon" />,
   },
