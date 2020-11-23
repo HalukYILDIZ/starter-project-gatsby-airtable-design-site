@@ -54,8 +54,8 @@ export default [
   },
   {
     page: "HİZMETLERİMİZ",
-    label: "DRONEMARKET",
-    url: `/dronemarket/Satis`,
+    label: "DroneMarket",
+    url: `https://shop.zihatim.com/`,
     icon: <FaFileAlt className="icon" />,
   },
   {
