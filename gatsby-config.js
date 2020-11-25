@@ -5,10 +5,10 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `zihatim`,
-    description: `Zirai İnsansız Hava Araçları Tarımsal İnavasyon Merkezi `,
+    description: `ZİHA TİM Zirai İnsansız Hava Araçları Tarımsal İnavasyon Merkezi `,
     author: `@halukyildiz`,
     siteUrl: `https://www.zihatim.com/`,
-    titleTemplate: `%s | Tarımsal İnavasyon Merkezi`,
+    titleTemplate: `%s | ZİHA Tarımsal İnavasyon Merkezi`,
     url: `https://www.zihatim.com/`,
     image: `/logo2.png`,
     twitterUsername: `@zihatim`,

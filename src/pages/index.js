@@ -19,7 +19,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <SEO
         title="ziha"
-        description="tarımsal inavasyon merkezi"
+        description="ZİHA tarımsal inavasyon merkezi"
         image="/logo2.png"
       />
       <Hero />
