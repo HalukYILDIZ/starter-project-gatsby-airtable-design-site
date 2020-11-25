@@ -7,8 +7,9 @@ module.exports = {
     title: `zihatim`,
     description: `Zirai İnsansız Hava Araçları Tarımsal İnavasyon Merkezi `,
     author: `@halukyildiz`,
+    siteUrl: `https://www.zihatim.com/`,
     titleTemplate: `%s | Tarımsal İnavasyon Merkezi`,
-    url: `https://ziha.netlify.app/`,
+    url: `https://www.zihatim.com/`,
     image: `/logo2.png`,
     twitterUsername: `@zihatim`,
   },
@@ -39,6 +40,7 @@ module.exports = {
         gatsbyRemarkPlugins: [{ resolve: "gatsby-remark-images" }],
       },
     },
+    `gatsby-plugin-sitemap`,
 
     {
       resolve: `gatsby-source-instagram`,
