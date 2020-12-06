@@ -11,7 +11,7 @@ module.exports = {
     siteUrl: `https://www.zihatim.com/`,
     titleTemplate: `%s | ZİHA Tarımsal İnavasyon Merkezi`,
     url: `https://www.zihatim.com/`,
-    image: `logo1.png`,
+    image: `logo.png`,
     twitterUsername: `@zihatim`,
   },
   plugins: [
