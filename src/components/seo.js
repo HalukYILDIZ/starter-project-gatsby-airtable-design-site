@@ -4,6 +4,10 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
+import favicon32 from "../images/favicon32.png";
+import favicon64 from "../images/favicon64.png";
+import appletouchicon from "../images/appletouchicon.png";
+
 const SEO = ({ title, description, image, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
@@ -25,10 +29,16 @@ const SEO = ({ title, description, image, article }) => {
   }
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
+    <Helmet title={seo.title} titleTemplate={titleTemplate} link={[
+    { rel: "icon", type: "image/png", sizes: "32x32", href: `${favicon32}` },
+    { rel: "shortcut icon", type: "image/png", href: `${favicon64}` },
+    {rel="apple-touch-icon", sizes: "57x57", href:`${appletouchicon}`},
+  ]}>
       <html lang="tr" />
       <meta name="description" content={seo.description} lang="tr" />
       <meta name="image" content={seo.image} />
+      
+      
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
