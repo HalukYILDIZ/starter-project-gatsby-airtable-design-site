@@ -3,9 +3,14 @@ import { Layout } from "../../components"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import WhoWeAre from "../../components/WhoWeAre"
+import SEO from "../../components/seo"
 const BizKimiz = props => {
   return (
     <Layout>
+       <SEO
+        title="BizKimiz"
+        description="ZİHA tarımsal inavasyon merkezi"
+      />
       <Wrapper>
         <div>
           <h1>Biz Kimiz?</h1>
