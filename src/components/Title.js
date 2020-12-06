@@ -4,17 +4,17 @@ import styled from "styled-components"
 const Title = ({ title }) => {
   return (
     <Wrapper>
-      <h2>
+      <h1>
         <span>/</span>
         {title}
-      </h2>
+      </h1>
     </Wrapper>
   )
 }
 const Wrapper = styled.div`
   text-align: center;
   margin-bottom: 2rem;
-  h2 {
+  h1 {
     display: flex;
     align-items: center;
     justify-content: center;

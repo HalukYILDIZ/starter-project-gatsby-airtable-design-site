@@ -19,7 +19,7 @@ const PostTemplate = ({ data }) => {
           <Image fluid={image.childImageSharp.fluid} />
           <div className="post-info">
             <span>{category}</span>
-            <h2>{title}</h2>
+            <h1>{title}</h1>
             <p>{date}</p>
             <div className="underline"></div>
           </div>
@@ -77,7 +77,7 @@ const Wrapper = styled.section`
       text-transform: uppercase;
       letter-spacing: var(--spacing);
     }
-    h2 {
+    h1 {
       margin: 1.25rem 0;
       font-weight: 400;
     }
