@@ -3,13 +3,16 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import { Layout, Projects } from "../components"
 import { Link } from "gatsby"
-
+import SEO from "../components/seo"
 const ProjectsPage = ({ data }) => {
   const {
     allAirtable: { nodes: projects },
   } = data
   return (
     <Wrapper>
+       <SEO
+        title="Tüm Çalışmalarımız"
+      />
       <Layout>
         <Projects projects={projects} title="Tüm Çalışmalarımız" page />
       </Layout>

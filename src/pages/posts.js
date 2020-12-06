@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import styled from "styled-components"
 import { graphql } from "gatsby"
 import Posts from "../components/Posts"
+import SEO from "../components/seo"
 // ...GatsbyImageSharpFluid
 const PostsPage = ({ data }) => {
   const {
@@ -11,6 +12,9 @@ const PostsPage = ({ data }) => {
 
   return (
     <Wrapper>
+       <SEO
+        title="Yazılarımız"
+      />
       <Layout>
         <Posts posts={posts} title="Tüm Yazılar" page />
       </Layout>

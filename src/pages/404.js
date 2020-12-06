@@ -2,9 +2,14 @@ import React from "react"
 import { Layout } from "../components"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import SEO from "../components/seo"
 const Error = () => {
   return (
     <Layout>
+      <SEO
+        title="Hata Sayfası"
+        description="ZİHA tarımsal inavasyon merkezi"
+      />
       <Wrapper>
         <div>
           <h1>Bir hata oluştu bu sayfa bulunamıyor.</h1>

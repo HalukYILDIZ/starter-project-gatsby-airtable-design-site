@@ -3,6 +3,7 @@ import GoogleMapReact from "google-map-react"
 import { Icon } from "@iconify/react"
 import locationIcon from "@iconify/icons-mdi/map-marker"
 import Info from "./Info"
+import SEO from "../../components/seo"
 
 import "./adres.css"
 
@@ -26,6 +27,10 @@ const Adres = props => {
 
   return (
     <Layout>
+         <SEO
+        title="Adres"
+        description="ZİHA tarımsal inavasyon merkezi"
+      />
       <Info />
       <div className="map">
         {/* <h2 className="map-h2">Gelİn Bİzİ Yerİmİzde Zİyaret Edİn </h2> */}

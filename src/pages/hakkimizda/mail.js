@@ -1,9 +1,14 @@
 import React from "react"
 import { Layout } from "../../components"
 import styled from "styled-components"
+import SEO from "../../components/seo"
 const Mail = props => {
   return (
     <Layout>
+       <SEO
+        title="Mail"
+        description="ZİHA tarımsal inavasyon merkezi"
+      />
       <Wrapper>
         <section className="contact-page">
           <article className="contact-form">

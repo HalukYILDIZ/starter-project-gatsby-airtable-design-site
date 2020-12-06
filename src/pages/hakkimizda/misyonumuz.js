@@ -4,10 +4,14 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import Blockquote from "../../components/Complete/Blockquote"
 import Title from "../../components/Title"
-
+import SEO from "../../components/seo"
 const Misyonumuz = props => {
   return (
     <Layout>
+       <SEO
+        title="Misyonumuz"
+        description="ZİHA tarımsal inavasyon merkezi"
+      />
       <Wrapper>
         <div>
           <Title title="Misyonumuz" />
