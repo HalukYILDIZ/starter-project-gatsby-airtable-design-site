@@ -56,8 +56,8 @@ const Hero = () => {
     <Wrapper>
       <Background image={images[index]}>
         <article>
-          {/* <h3>Siz evde kalın, Ekinlerinizin sağlığıyla biz İlgileniriz</h3>
-          <h1>ZİHA Tarımsal İnavosyon Merkezİ</h1> */}
+          <h3>Emeğinizi Çiğnetmeyin</h3>
+          <h1>ZİHA Tarımsal İnavosyon Merkezİ</h1>
 
           <Link to="/posts">DAHA FAZLA BİLGİ AL</Link>
         </article>
