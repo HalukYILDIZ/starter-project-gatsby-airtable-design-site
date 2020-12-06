@@ -7,6 +7,7 @@ module.exports = {
     title: `zihatim`,
     description: `ZİHA TİM Zirai İnsansız Hava Araçları Tarımsal İnavasyon Merkezi `,
     author: `@halukyildiz`,
+    lang: `tr`,
     siteUrl: `https://www.zihatim.com/`,
     titleTemplate: `%s | ZİHA Tarımsal İnavasyon Merkezi`,
     url: `https://www.zihatim.com/`,
