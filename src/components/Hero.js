@@ -57,7 +57,7 @@ const Hero = () => {
       <Background image={images[index]}>
         <article>
           <h3>Emeğinizi Çiğnetmeyin</h3>
-          <h1>ZİHA Tarımsal İnavosyon Merkezİ</h1>
+          <h1>ZİHA Tarımsal İnovasyon Merkezİ</h1>
 
           <Link to="/posts">DAHA FAZLA BİLGİ AL</Link>
         </article>
