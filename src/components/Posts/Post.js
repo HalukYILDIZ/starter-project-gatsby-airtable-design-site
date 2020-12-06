@@ -9,7 +9,7 @@ const Post = ({ frontmatter, excerpt }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
   return (
     <Wrapper>
-      <Image fluid={image.childImageSharp.fluid} className="img" />
+      <Image alt={title} fluid={image.childImageSharp.fluid} className="img" />
       <div className="info">
         <span className="category">{category}</span>
         <h3>{title}</h3>

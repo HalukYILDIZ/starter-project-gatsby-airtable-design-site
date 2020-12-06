@@ -47,7 +47,7 @@ const Recent = () => {
         } = post.frontmatter
         return (
           <Link to={`/posts/${slug}`} key={post.id} className="post">
-            <Image fluid={fluid} className="img" />
+            <Image fluid={fluid} className="img" alt={title} />
             <div>
               <h5>{title}</h5>
               <p>{date}</p>

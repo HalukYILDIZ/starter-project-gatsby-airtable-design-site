@@ -14,7 +14,7 @@ const GridProjects = ({ projects, title }) => {
           const fluid = project.data.image.localFiles[0].childImageSharp.fluid
           return (
             <article key={index} className={`div-${index}`}>
-              <Image className="img" fluid={fluid} />
+              <Image className="img" fluid={fluid} alt={type} />
               <div className="info">
                 <p>- {type} -</p>
                 <h3>{name}</h3>

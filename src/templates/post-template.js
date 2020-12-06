@@ -16,7 +16,7 @@ const PostTemplate = ({ data }) => {
     <Layout>
       <Wrapper>
         <article>
-          <Image fluid={image.childImageSharp.fluid} />
+          <Image alt={title} fluid={image.childImageSharp.fluid} />
           <div className="post-info">
             <span>{category}</span>
             <h1>{title}</h1>

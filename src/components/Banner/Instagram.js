@@ -36,7 +36,7 @@ const Instagram = () => {
               childImageSharp: { fluid },
             },
           } = item
-          return <Image fluid={fluid} key={index} />
+          return <Image fluid={fluid} key={index} alt="zihatim"/>
         })}{" "}
       </div>{" "}
     </Wrapper>

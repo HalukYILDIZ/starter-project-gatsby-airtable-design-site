@@ -63,7 +63,7 @@ const Customers = () => {
           }
           return (
             <article key={customerIndex} className={position}>
-              <Image fixed={customerImg} className="img"></Image>
+              <Image fixed={customerImg} className="img" alt={name} ></Image>
               <h4>{name}</h4>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>

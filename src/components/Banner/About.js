@@ -37,6 +37,7 @@ const About = () => {
       <Image
         fixed={hero[0].data.image.localFiles[0].childImageSharp.fixed}
         className="img"
+        alt="drone ilaçlama"
       />
       <p>
         Zirai insansız hava araçlarımız ile, üreticimizin zirai ürünlerini

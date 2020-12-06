@@ -29,7 +29,7 @@ const Projects = ({ projects: data, title, page }) => {
           return (
             <article key={id}>
               <div className="container">
-                <Image fluid={fluid} className="img" />
+                <Image fluid={fluid} className="img" alt={type} />
                 <div className="info">
                   <p>- {type} -</p>
                   <h3>{name}</h3>
