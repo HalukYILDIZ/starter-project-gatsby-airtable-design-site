@@ -29,15 +29,27 @@ const SEO = ({ title, description, image, article }) => {
   }
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate} link={[
-    { rel: "icon", type: "image/png", sizes: "32x32", href: `${favicon32}` },
-    { rel: "shortcut icon", type: "image/png", href: `${favicon64}` },
-    {rel="apple-touch-icon", sizes: "57x57", href:`${appletouchicon}`},
-  ]}>
+    <Helmet title={seo.title} titleTemplate={titleTemplate} >
       <html lang="tr" />
       <meta name="description" content={seo.description} lang="tr" />
       <meta name="image" content={seo.image} />
-      
+         <link
+          rel="apple-touch-icon"
+          sizes="57x57"
+          href="../images/appletouchicon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../images/favicon32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="64x64"
+          href="../images/favicon16.png"
+        />
       
 
       {seo.url && <meta property="og:url" content={seo.url} />}
