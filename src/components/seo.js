@@ -26,6 +26,7 @@ const SEO = ({ title, description, image, article }) => {
 
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <html lang="tr"></html>
       <meta name="description" content={seo.description} lang="tr" />
       <meta name="image" content={seo.image} />
 
