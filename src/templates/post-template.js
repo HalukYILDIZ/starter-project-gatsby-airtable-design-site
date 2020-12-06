@@ -5,6 +5,7 @@ import Image from "gatsby-image"
 import Banner from "../components/Banner"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import SEO from "../components/seo"
 const PostTemplate = ({ data }) => {
   const {
     mdx: {
@@ -14,6 +15,9 @@ const PostTemplate = ({ data }) => {
   } = data
   return (
     <Layout>
+      <SEO
+        title={title}
+      />
       <Wrapper>
         <article>
           <Image alt={title} fluid={image.childImageSharp.fluid} />
