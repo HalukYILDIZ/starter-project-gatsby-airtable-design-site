@@ -11,7 +11,7 @@ const Post = ({ frontmatter, excerpt }) => {
   return (
     <Wrapper>
       <SEO
-        title={`${title}`}
+        title={title}
       />
       <Image alt={title} fluid={image.childImageSharp.fluid} className="img" />
       <div className="info">
