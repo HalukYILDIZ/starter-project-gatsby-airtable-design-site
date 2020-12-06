@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
+import favicon16 from "../images/favicon16.png";
 import favicon32 from "../images/favicon32.png";
 import favicon64 from "../images/favicon64.png";
 import appletouchicon from "../images/appletouchicon.png";
@@ -29,7 +30,12 @@ const SEO = ({ title, description, image, article }) => {
   }
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate} >
+    <Helmet title={seo.title} titleTemplate={titleTemplate} link={[
+    { rel: "icon", type: "image/png", sizes: "16x16", href: `${favicon16}` },
+    { rel: "icon", type: "image/png", sizes: "32x32", href: `${favicon32}` },
+    { rel: "shortcut icon", type: "image/png",sizes: "64x64", href: `${favicon64}` },
+    { rel: "apple-touch-icon", type: "image/png", sizes: "57x57",  href: `${appletouchicon}` },
+  ]} >
       <html lang="tr" />
       <meta name="description" content={seo.description} lang="tr" />
       <meta name="image" content={seo.image} />
