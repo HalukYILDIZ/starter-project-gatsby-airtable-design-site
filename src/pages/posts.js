@@ -11,11 +11,11 @@ const PostsPage = ({ data }) => {
   } = data
 
   return (
-    <Wrapper>
-       <SEO
+    <Wrapper>    
+      <Layout>
+        <SEO
         title="Yazılarımız"
       />
-      <Layout>
         <Posts posts={posts} title="Tüm Yazılar" page />
       </Layout>
     </Wrapper>
