@@ -4,11 +4,16 @@ import { FaRegClock } from "react-icons/fa"
 import { IoMdArrowRoundForward } from "react-icons/io"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import SEO from "../seo"
 
 const Post = ({ frontmatter, excerpt }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
   return (
     <Wrapper>
+      <SEO
+        title={`${slug}`}
+        description={`${category}`}
+      />
       <Image alt={title} fluid={image.childImageSharp.fluid} className="img" />
       <div className="info">
         <span className="category">{category}</span>

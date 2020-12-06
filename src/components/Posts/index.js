@@ -2,6 +2,7 @@ import React from "react"
 import Post from "./Post"
 import Title from "../Title"
 import Banner from "../Banner"
+
 const Posts = ({ posts, title }) => {
   return (
     <div className="section">
