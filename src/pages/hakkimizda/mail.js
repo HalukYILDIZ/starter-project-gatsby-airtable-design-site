@@ -7,7 +7,7 @@ const Mail = props => {
     <Layout>
        <SEO
         title="Mail"
-        description="ZİHA tarımsal inavasyon merkezi"
+        description="Mail adresimiz üzerinden bize ulaşabilirsiniz"
       />
       <Wrapper>
         <section className="contact-page">

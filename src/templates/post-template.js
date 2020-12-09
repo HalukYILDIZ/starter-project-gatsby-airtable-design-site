@@ -17,6 +17,7 @@ const PostTemplate = ({ data }) => {
     <Layout>
       <SEO
         title={title}
+        description={category}
       />
       <Wrapper>
         <article>

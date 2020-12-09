@@ -111,13 +111,13 @@ module.exports = {
               image: `fileNode`,
             },
           },
-            {
-            baseId: process.env.GATSBY_ZIHA_BASE,
-            tableName: `Satis`,
-            mapping: {
-              image: `fileNode`,
-            },
-          },
+          //   {
+          //   baseId: process.env.GATSBY_ZIHA_BASE,
+          //   tableName: `Satis`,
+          //   mapping: {
+          //     image: `fileNode`,
+          //   },
+          // },
         ],
       },
     },

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import { Layout, Projects } from "../components"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import SEO from "../components/seo"
 const ProjectsPage = ({ data }) => {
   const {
@@ -12,6 +12,7 @@ const ProjectsPage = ({ data }) => {
     <Wrapper>
        <SEO
         title="Tüm Çalışmalarımız"
+        description="Saha çalışmalarımızı takip edebilirsiniz."
       />
       <Layout>
         <Projects projects={projects} title="Tüm Çalışmalarımız" page />

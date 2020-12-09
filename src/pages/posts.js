@@ -15,6 +15,7 @@ const PostsPage = ({ data }) => {
       <Layout>
         <SEO
         title="Yazılarımız"
+        description="Ayrıntılı bilgilere ulaşmak için yazılarımızı takip edebilirsiniz."
       />
         <Posts posts={posts} title="Tüm Yazılar" page />
       </Layout>

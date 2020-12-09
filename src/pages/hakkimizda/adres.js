@@ -29,7 +29,7 @@ const Adres = props => {
     <Layout>
          <SEO
         title="Adres"
-        description="ZİHA tarımsal inavasyon merkezi"
+        description="Ankara TepePrime da bulunan merkez ofisimize bekleiz."
       />
       <Info />
       <div className="map">

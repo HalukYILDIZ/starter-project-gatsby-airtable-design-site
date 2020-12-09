@@ -10,7 +10,7 @@ const Misyonumuz = props => {
     <Layout>
        <SEO
         title="Misyonumuz"
-        description="ZİHA tarımsal inavasyon merkezi"
+        description="Emeğinizi Çiğnetmeyin"
       />
       <Wrapper>
         <div>
