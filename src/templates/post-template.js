@@ -6,29 +6,36 @@ import Banner from "../components/Banner"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import SEO from "../components/seo"
+import ShareSocialButton from "../components/ShareSocialButton"
 const PostTemplate = ({ data }) => {
   const {
     mdx: {
-      frontmatter: { title, category, image, date },
+      frontmatter: { title, category, image, date, slug },
       body,
     },
   } = data
   return (
     <Layout>
-      <SEO
-        title={title}
-        description={category}
-      />
+      <SEO title={title} description={category} />
       <Wrapper>
         <article>
           <Image alt={title} fluid={image.childImageSharp.fluid} />
           <div className="post-info">
             <span>{category}</span>
             <h1>{title}</h1>
+            <ShareSocialButton
+              shareUrl={`https://www.zihatim.com/posts/${slug}`}
+              title={title}
+            />
             <p>{date}</p>
+
             <div className="underline"></div>
           </div>
           <MDXRenderer>{body}</MDXRenderer>
+          <ShareSocialButton
+            shareUrl={`https://www.zihatim.com/posts/${slug}`}
+            title={title}
+          />
         </article>
         <article>
           <Banner />
