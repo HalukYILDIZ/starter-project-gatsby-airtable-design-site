@@ -8,8 +8,21 @@ import {
   FaMailBulk,
   FaPills,
   FaSearch,
+  FaShoppingCart,
 } from "react-icons/fa"
 export default [
+  {
+    page: "HİZMETLERİMİZ",
+    label: "DronMarket",
+    url: `https://shop.zihatim.com/`,
+    icon: <FaShoppingCart className="icon" />,
+  },
+  {
+    page: "HİZMETLERİMİZ",
+    label: "Plan Haritası",
+    url: `https://map.zihatim.com/`,
+    icon: <FaMap className="icon" />,
+  },
   {
     page: "HİZMETLERİMİZ",
     label: "İlaçlama",
@@ -52,12 +65,7 @@ export default [
     url: `/posts/phantom-4-rtk`,
     icon: <FaFileAlt className="icon" />,
   },
-  {
-    page: "HİZMETLERİMİZ",
-    label: "DronMarket",
-    url: `https://shop.zihatim.com/`,
-    icon: <FaFileAlt className="icon" />,
-  },
+
   {
     page: "hakkımızda",
     label: "biz kimiz?",
