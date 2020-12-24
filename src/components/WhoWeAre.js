@@ -87,7 +87,7 @@ const Wrapper = styled.div`
   .section-center {
     margin-top: 4rem;
     width: 80vw;
-    height: 550px;
+    height: 640px;
     max-width: 800px;
     text-align: center;
     position: relative;
