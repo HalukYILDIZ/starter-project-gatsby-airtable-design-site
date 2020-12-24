@@ -35,12 +35,7 @@ export default [
     url: `/posts/analiz`,
     icon: <FaSearch className="icon" />,
   },
-  {
-    page: "HİZMETLERİMİZ",
-    label: "haritalama",
-    url: `/posts/haritalama`,
-    icon: <FaMap className="icon" />,
-  },
+
   {
     page: "YAZILARIMIZ",
     label: "Tüm yazılar",
@@ -64,6 +59,12 @@ export default [
     label: "DJI Phantom 4",
     url: `/posts/phantom-4-rtk`,
     icon: <FaFileAlt className="icon" />,
+  },
+  {
+    page: "YAZILARIMIZ",
+    label: "haritalama",
+    url: `/posts/haritalama`,
+    icon: <FaMap className="icon" />,
   },
 
   {
