@@ -1,7 +1,7 @@
 import React from "react"
 //import GoogleMapReact from "google-map-react"
-import { Icon } from "@iconify/react"
-import locationIcon from "@iconify/icons-mdi/map-marker"
+//import { Icon } from "@iconify/react"
+//import locationIcon from "@iconify/icons-mdi/map-marker"
 import Info from "./Info"
 import SEO from "../../components/seo"
 
@@ -16,18 +16,18 @@ import { Layout } from "../../components"
 //   </div>
 // )
 
- const Adres = props => {
-//   const koordinatlar = {
-//     center: {
-//       lat: 39.9075021,
-//       lng: 32.7575053,
-//     },
-//     zoom: 15,
-//   }
+const Adres = props => {
+  //   const koordinatlar = {
+  //     center: {
+  //       lat: 39.9075021,
+  //       lng: 32.7575053,
+  //     },
+  //     zoom: 15,
+  //   }
 
   return (
     <Layout>
-         <SEO
+      <SEO
         title="Adres"
         description="Ankara TepePrime da bulunan merkez ofisimize bekleiz."
       />

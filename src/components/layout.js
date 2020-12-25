@@ -21,6 +21,8 @@ const Layout = ({ children }) => {
 
       {children}
       <Footer />
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-83d0211c-86a8-4b23-876e-de20c91e6b52"></div>
     </>
   )
 }
