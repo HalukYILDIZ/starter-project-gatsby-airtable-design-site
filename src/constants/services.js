@@ -14,7 +14,7 @@ export default [
     icon: <GiCoinsPile className="icon" />,
     label: "mahsül analİzİ",
     text:
-      " Termal analiz, yüksek çözünürlüklü optik görüntüleme ile mahsül sağlık durumunu analiz ederek verim artırıcı önlemler ve ihtiyaçlar için saha çalışmalarıyla çözümler üretiyoruz.",
+      " Termal analiz, yüksek çözünürlüklü optik görüntüleme ile mahsül sağlık durumunu analiz ederek verim artırıcı önlemler ve ihtiyaçlar için saha çalışmalarıyla çözümler üretiyoruz. ",
   },
   {
     id: 3,
